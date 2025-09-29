@@ -35,9 +35,6 @@ importers:
       redux:
         specifier: ^5.0.1
         version: 5.0.1
-      saga:
-        specifier: 4.0.0-alpha
-        version: 4.0.0-alpha
     devDependencies:
       '@eslint/js':
         specifier: ^9.36.0
@@ -1593,9 +1590,6 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  saga@4.0.0-alpha:
-    resolution: {integrity: sha512-zlCIMLPaurw1bBBmGkKTyDR8j1f2pkYZGP1+pn46nZT+QiMD77gpaYjOtA8eIE4urPdOacmtT9pcEKJ/woIV6Q==}
-
   scheduler@0.26.0:
     resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
 
@@ -1693,9 +1687,6 @@ packages:
 
   ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
-
-  tslib@1.14.1:
-    resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -3359,10 +3350,6 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  saga@4.0.0-alpha:
-    dependencies:
-      tslib: 1.14.1
-
   scheduler@0.26.0: {}
 
   scroll-into-view-if-needed@3.1.0:
@@ -3474,8 +3461,6 @@ snapshots:
   toggle-selection@1.0.6: {}
 
   ts-interface-checker@0.1.13: {}
-
-  tslib@1.14.1: {}
 
   type-check@0.4.0:
     dependencies:
